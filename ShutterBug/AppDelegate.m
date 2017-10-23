@@ -20,6 +20,7 @@
     UINavigationController *navVC =  (UINavigationController *)[splitVC.childViewControllers lastObject];
     splitVC.delegate = [navVC.childViewControllers lastObject];
     return YES;
+    //TESST
     
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
